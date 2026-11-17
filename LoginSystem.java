@@ -19,7 +19,7 @@ public class LoginSystem extends JFrame implements ActionListener {
 
         setTitle("Login System");
         setSize(400, 300);
-        setLayout(null);                       
+        setLayout(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
