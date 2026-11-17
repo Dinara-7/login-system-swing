@@ -19,7 +19,7 @@ public class LoginSystem extends JFrame implements ActionListener {
 
         setTitle("Login System");
         setSize(400, 300);
-        setLayout(null);                       // manual positioning
+        setLayout(null);                       
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
@@ -49,7 +49,6 @@ public class LoginSystem extends JFrame implements ActionListener {
         resetButton.setFont(boldFont);
         resetButton.setBounds(200, 150, 100, 28);
 
-        // Add components to the frame
         add(userLabel);
         add(userField);
         add(passLabel);
@@ -57,7 +56,6 @@ public class LoginSystem extends JFrame implements ActionListener {
         add(loginButton);
         add(resetButton);
 
-        // Register listeners
         loginButton.addActionListener(this);
         resetButton.addActionListener(this);
     }
